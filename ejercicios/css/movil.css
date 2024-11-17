@@ -1,0 +1,185 @@
+/* MENU */
+/* Estilos generales para móviles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #BBB;
+    color: #444;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+#superior {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #464d52;
+    text-align: center;
+}
+
+#encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+}
+
+#logo {
+    width: 120px;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px;
+    display: block;
+    background-color: #5077c7;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #3b5998;
+}
+
+/* Contenido principal */
+#contenido {
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.planes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estilos para los artículos de planes */
+.planes article {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.planes article img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.planes article p {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* Botones */
+.boton {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.boton a {
+    display: block;
+    text-decoration: none;
+    background-color: #464d52;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.boton a:hover {
+    background-color: #3b5998;
+}
+
+/* Ajustes para la galería */
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+#galeria .plan {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+#galeria .plan img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Estilos específicos para las imágenes en la página de planes */
+.planes article img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.planes article img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustes para las imágenes en la galería */
+#galeria .plan img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#galeria .plan img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
