@@ -1,0 +1,118 @@
+/* Estilos generales para PC */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Encabezado */
+#superior {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+#encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 180px;
+    height: auto;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Contenido principal */
+#contenido {
+    width: 75%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* Estilos para la sección de artículos */
+.planes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.planes article {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%; /* Controla el ancho de cada artículo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para las imágenes */
+.planes article img {
+    width: 100%;
+    max-width: 250px; /* Tamaño máximo de las imágenes */
+    height: 160px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Botones dentro de los artículos */
+.boton {
+    margin-top: 10px;
+}
+
+.boton a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton a:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}

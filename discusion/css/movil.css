@@ -1,0 +1,50 @@
+/* movil.css */
+
+/* movil.css */
+
+/* Encabezado para móviles */
+#encabezado {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#logo {
+    width: 120px;
+}
+
+/* Menú de navegación */
+nav ul {
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Contenido principal */
+#contenido {
+    width: 95%;
+    margin: 20px auto;
+}
+
+/* Estilos para imágenes en móviles */
+.planes article img, 
+#galeria .plan img {
+    width: 100%;
+    max-height: 200px; /* Tamaño fijo para móviles */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.boton a {
+    display: block;
+    background-color: #FF7F50; /* Coral */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boton a:hover {
+    background-color: #FF4500;
+}

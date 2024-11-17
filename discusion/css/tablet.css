@@ -1,0 +1,47 @@
+/* tablet.css */
+
+/* Encabezado para tablets */
+/* tablet.css */
+
+/* Encabezado */
+#encabezado {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 150px;
+}
+
+/* Contenido para tablets */
+#contenido {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* Ajustes para artículos y galería en tablets */
+.planes article img, 
+#galeria .plan img {
+    width: 100%;
+    max-height: 250px; /* Tamaño fijo para tablets */
+    height: auto;
+    border-radius: 10px;
+}
+
+.planes article {
+    width: 48%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #FFD700; /* Dorado */
+}
+
+.boton a {
+    background-color: #32CD32; /* Verde lima */
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.boton a:hover {
+    background-color: #228B22;
+}
